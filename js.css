@@ -1,0 +1,40 @@
+.book-toc {
+}
+
+.book-toc p {
+    font-weight: 550;
+    margin-bottom: 7px;
+}
+
+#toc * {
+  text-decoration: none;
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+
+
+#toc ul {
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+#toc > li {
+}
+
+#toc {
+  border: 1px solid #ddd;
+  padding: 20px 20px 35px 35px;
+  /* border-radius: 15px; */
+  margin-bottom: 20px;
+  background: rgb(250 250 250);
+}
+
+#toc > li {
+  margin-left: 22px;
+}
+
+#toc > li > ul li {
+  margin-left: 0px;
+  margin-bottom: 5px !important;
+}
